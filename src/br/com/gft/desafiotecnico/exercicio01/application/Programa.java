@@ -13,6 +13,7 @@ public class Programa {
 
         while(true){
 
+            System.out.print("Digite um valor entre 0 e 4000: ");
         int numero = digitar.nextInt();
         if (numero == 0 && numero < 4000)
             break;
